@@ -25,13 +25,14 @@ body {
 
 body .container {
   width: 1440px;
-  padding: 40px 222px;
-  margin: 0 auto;
+  padding: 40px 222px 0;
+  margin: auto;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 700px) {
   body .container {
-    padding: 40px 12px;
+    padding: 40px 12px 0;
     width: 375px;
   }
 }
@@ -143,9 +144,22 @@ body .container main .intro-profile .intro-profile__buttons button + button {
   margin-left: 24px;
 }
 
+@media screen and (max-width: 700px) {
+  body .container main .intro-profile .intro-profile__buttons button + button {
+    margin-left: 12px;
+  }
+}
+
 body .container main .intro-profile .intro-profile__buttons .btn {
   padding: 14px 24px;
   width: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  body .container main .intro-profile .intro-profile__buttons .btn {
+    width: 78px;
+    padding: 7px 12px;
+  }
 }
 
 body .container main .intro-profile .intro-profile__buttons .btn .digits {
@@ -154,6 +168,12 @@ body .container main .intro-profile .intro-profile__buttons .btn .digits {
   text-align: center;
   line-height: 21.94px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  body .container main .intro-profile .intro-profile__buttons .btn .digits {
+    font-size: 12px;
+  }
 }
 
 body .container main .intro-profile .intro-profile__buttons .btn p {
@@ -165,8 +185,14 @@ body .container main .intro-profile .intro-profile__buttons .btn p {
   text-transform: capitalize;
 }
 
+@media screen and (max-width: 700px) {
+  body .container main .intro-profile .intro-profile__buttons .btn p {
+    font-size: 12px;
+  }
+}
+
 body .container .pic-section {
-  padding: 63px 0;
+  padding: 63px 0 0;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -174,6 +200,13 @@ body .container .pic-section {
   -ms-grid-rows: (1fr)[3];
       grid-template-rows: repeat(3, 1fr);
   gap: 32px;
+}
+
+@media screen and (max-width: 700px) {
+  body .container .pic-section {
+    padding: 39px 0 0;
+    gap: 11px;
+  }
 }
 
 body .container .pic-section img {
@@ -223,5 +256,23 @@ body .container .pic-section .pic-6 {
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   grid-row: 3/-1;
+}
+
+body .container footer {
+  text-align: center;
+  margin: 40px auto 28px;
+}
+
+body .container footer .footer {
+  font-size: 12px;
+}
+
+body .container footer .footer a {
+  opacity: .75;
+  color: inherit;
+}
+
+body .container footer .footer a:hover {
+  color: blue;
 }
 /*# sourceMappingURL=main.css.map */
