@@ -1,0 +1,18 @@
+@mixin box-colours($text-color, $background) {
+    color: $text-color;
+    background: $background;
+}
+
+@mixin div-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin name-tag {
+    font-size: 14px;
+    line-height: 17.07px;
+    font-weight: 600;
+    color: $accent-clr;
+    text-align: center;
+}
