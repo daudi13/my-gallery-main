@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{My-Gallery SOcial network page}</h1>
+<h1 align="center">{My-Gallery Social network page}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/daudi13/my-gallery-main/blob/main/images/Screenshot%20from%202021-01-25%2015-48-03.png)
 
 The project is inspired by instagram gallery page.
 
